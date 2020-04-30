@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Admin</title>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script>
+     // Your web app's Firebase configuration
+     var firebaseConfig = {
+       apiKey: "AIzaSyC9CXNMtZN69M0AA8bcErPP0VlbyPPCIgg",
+       authDomain: "bismillah-2dd17.firebaseapp.com",
+       databaseURL: "https://bismillah-2dd17.firebaseio.com",
+       projectId: "bismillah-2dd17",
+       storageBucket: "bismillah-2dd17.appspot.com",
+       messagingSenderId: "337067831088",
+       appId: "1:337067831088:web:45b61cd514385fa03ee2f5",
+       measurementId: "G-MPF4Y42ZWS"
+     };
+     // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+     firebase.analytics();
+   </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y="
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css"
+      integrity="sha256-x8PYmLKD83R9T/sYmJn1j3is/chhJdySyhet/JuHnfY="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-mattBlackLight fixed-top"
+    >
+      <button class="navbar-toggler sideMenuToggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">Dashboard</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </nav>
+    <div class="wrapper d-flex" style="body:100%">
+      <div class="sideMenu bg-mattBlackLight">
+        <div class="sidebar">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a href="dashboard.html" class="nav-link px-2">
+                <span class="text">User Profile</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Mobil.html" class="nav-link px-2">
+                <span class="text">Mobil</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Big_Bus_HDD.html" class="nav-link px-2 sideMenuToggler">
+                <span class="text">Big Bus HDD</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Big_Bus_MD.html" class="nav-link px-2 sideMenuToggler">
+                <span class="text">Big Bus MD</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Big_Bus_SHD.html" class="nav-link px-2 sideMenuToggler">
+                <span class="text">Big Bus SHD</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Minibus_Big.html" class="nav-link px-2 sideMenuToggler">
+                <span class="text">Mini Bus Big</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Minibus_Big_Jumbo.html" class="nav-link px-2 sideMenuToggler">
+                <span class="text">Mini Bus Big Jumbo</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Minibus_Jumbo.html" class="nav-link px-2 sideMenuToggler">
+                <span class="text">Mini Bus Jumbo</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Minibus_MC.html" class="nav-link px-2 sideMenuToggler">
+                <span class="text">Mini Bus MC</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="ulasan.html" class="nav-link px-2 sideMenuToggler">
+                <span class="text">Ulasan</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="content">
+        <main>
+          <div class="container-fluid">
+
+            <div class="row" id="btn-save-user">
+              <div class="container">
+                <div class="col-md-6">
+                  <div class="bg-mattBlackLight my-2 p-3">
+                    <h4 class="mb-4">Add Armada</h4>
+              <form action="" id="form-user">
+                <div class="form-group">
+                  <label for="nama">ID:</label>
+                  <input type="text" class="form-control" id="id" placeholder="Enter id" name="id">
+                </div>
+                <div class="form-group">
+                  <label for="jenis">Jenis:</label>
+                  <input type="text" class="form-control" id="jenis" placeholder="Enter jenis" name="jenis">
+                </div>
+                <div class="form-group">
+                  <label for="tipe">Tipe:</label>
+                  <input type="text" class="form-control" id="tipe" placeholder="Enter tipe" name="tipe">
+                </div>
+                <div class="form-group">
+                  <label for="tahun">Tahun:</label>
+                  <input type="text" class="form-control" id="tahun" placeholder="Enter tahun" name="tahun">
+                </div>
+                <div class="form-group">
+                  <label for="cc">CC:</label>
+                  <input type="text" class="form-control" id="cc" placeholder="Enter cc" name="cc">
+                </div>
+                <div class="form-group">
+                  <label for="deskripsi">Deskripsi:</label>
+                  <input type="text" class="form-control" id="deskripsi" placeholder="Enter deskripsi" name="deskripsi">
+                </div>
+                <div class="form-group">
+                  <label for="gambar">Gambar:</label>
+                  <input type="file" class="form-control" id="gambar" name="gambar">
+                </div>
+                <input type="button" value="Save" onclick="save_user();" />
+                <input type="button" value="Update" onclick="update_user();" />
+                <input type="button" value="Delete" onclick="delete_user();" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                  <h4 class="mb-4">Armada</h4>
+                  <div class="box-body ">
+                    <table class="table " id="tbl_users_list" border="1" style="color:white">
+                     <tr>
+                      <td>ID</td>
+                      <td>JENIS</td>
+                      <td>TIPE</td>
+                      <td>TAHUN</td>
+                      <td>CC</td>
+                      <td>DESKRIPSI</td>
+                      <td>GAMBAR</td>
+                     </tr>
+                    </table>
+                    </div>
+
+          </div>
+        </main>
+      </div>
+    </div>
+    <script>
+
+     var tblUsers = document.getElementById('tbl_users_list');
+     var databaseRef = firebase.database().ref('Armada/Minibus Jumbo/');
+     var rowIndex = 1;
+
+     databaseRef.once('value', function(snapshot) {
+     snapshot.forEach(function(childSnapshot) {
+      var childKey = childSnapshot.key;
+      var childData = childSnapshot.val();
+
+      var row = tblUsers.insertRow(rowIndex);
+      var cellId = row.insertCell(0);
+      var cellJenis = row.insertCell(1);
+      var cellTipe = row.insertCell(2);
+      var cellTahun = row.insertCell(3);
+      var cellCc = row.insertCell(4);
+      var cellDeskripsi = row.insertCell(5);
+      var cellGambar = row.insertCell(6);
+
+      cellId.appendChild(document.createTextNode(childKey));
+      cellJenis.appendChild(document.createTextNode(childData.jenis));
+      cellTipe.appendChild(document.createTextNode(childData.tipe));
+      cellTahun.appendChild(document.createTextNode(childData.tahun));
+      cellCc.appendChild(document.createTextNode(childData.cc));
+      cellDeskripsi.appendChild(document.createTextNode(childData.deskripsi));
+      cellGambar.appendChild(document.createTextNode(childData.gambar));
+
+
+      rowIndex = rowIndex + 1;
+       });
+     });
+
+     function save_user(){
+      var tipe = document.getElementById('tipe').value;
+      var jenis = document.getElementById('jenis').value;
+      var tipe = document.getElementById('tipe').value;
+      var tahun = document.getElementById('tahun').value;
+      var cc = document.getElementById('cc').value;
+      var deskripsi = document.getElementById('deskripsi').value;
+      var gambar = document.getElementById('gambar').value;
+
+      var id = document.getElementById('id').value;
+
+
+      var data = {
+       id : id,
+       tipe: tipe,
+       jenis: jenis,
+       tahun: tahun,
+       cc: cc,
+       deskripsi: deskripsi,
+       gambar: gambar
+      }
+
+      var updates = {};
+      updates['/Armada/Minibus Jumbo/' + id] = data;
+      firebase.database().ref().update(updates);
+
+      alert('The user is created successfully!');
+      reload_page();
+     }
+
+     function update_user(){
+       var tipe = document.getElementById('tipe').value;
+       var jenis = document.getElementById('jenis').value;
+       var tipe = document.getElementById('tipe').value;
+       var tahun = document.getElementById('tahun').value;
+       var cc = document.getElementById('cc').value;
+       var deskripsi = document.getElementById('deskripsi').value;
+       var gambar = document.getElementById('gambar').value;
+
+       var id = document.getElementById('id').value;
+
+
+       var data = {
+        id : id,
+        tipe: tipe,
+        jenis: jenis,
+        tahun: tahun,
+        cc: cc,
+        deskripsi: deskripsi,
+        gambar: gambar
+       }
+
+      var updates = {};
+      updates['/Armada/Minibus Jumbo/' + id] = data;
+      firebase.database().ref().update(updates);
+
+      alert('The user is updated successfully!');
+
+      reload_page();
+     }
+
+     function delete_user(){
+      var id = document.getElementById('id').value;
+
+      firebase.database().ref().child('/Armada/Minibus Jumbo/' + id).remove();
+      alert('The user is deleted successfully!');
+      reload_page();
+     }
+
+     function reload_page(){
+      window.location.reload();
+     }
+
+    </script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+      integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"
+      integrity="sha256-qE/6vdSYzQu9lgosKxhFplETvWvqAAlmAuR+yPh/0SI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

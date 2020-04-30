@@ -1,0 +1,107 @@
+$(function () {
+      var tableHTML = '';
+      var obj = [];
+      var obj2 = [];
+      var nama;
+      var firebaseConfig = {
+        apiKey: "AIzaSyC9CXNMtZN69M0AA8bcErPP0VlbyPPCIgg",
+        authDomain: "bismillah-2dd17.firebaseapp.com",
+        databaseURL: "https://bismillah-2dd17.firebaseio.com",
+        projectId: "bismillah-2dd17",
+        storageBucket: "bismillah-2dd17.appspot.com",
+        messagingSenderId: "337067831088",
+        appId: "1:337067831088:web:45b61cd514385fa03ee2f5",
+        measurementId: "G-MPF4Y42ZWS"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+      var tbl_users = firebase.database().ref().child('user');
+      tblMhs.on("value", function(snap) {
+        obj = [];
+        $.each(snap.val(), function(index, element) {
+          obj2 = {"id":element.id,"nama":element.nama,"alamat":element.alamat,"jk":element.jk,"no":element.no,"profesi":element.profesi,"email":element.email,"pwd":element.pwd};
+          obj.push(obj2);
+        });
+        addTable(obj);
+      });
+
+      function addTable(data){
+       $('#tbl_users').DataTable().clear().draw();
+       $('#tbl_users').DataTable().rows.add(data).draw();
+     }
+
+     $( "#btn-save-user" ).click(function() {
+        $('#modal-form-user').modal('hide');
+        var action = $("#btn-save-user").val();
+        if (action == "Simpan"){
+          var v_id = $('input:text[name=id]').val();
+          var v_nama = $('input:text[name=nama]').val();
+          var v_alamat = $('input:text[name=alamat]').val();
+          var v_jk = $('input[name=jk]:checked').val();
+          var v_no = $('input:text[name=no]').val();
+          var v_profesi = $('input:text[name=profesi]').val();
+          var v_email = $('input[name=email]').val();
+          var v_password = $('input[name=pwd]').val();
+          firebase.database().ref('mhs/'+v_id).set({
+           id: v_id,
+           nama: v_nama,
+           alamat: v_alamat,
+           jk: v_jk,
+           no: v_no,
+           profesi: v_profesi,
+           email: v_email,
+           password: v_password
+         });
+        }else{
+          var v_id = $('input:text[name=id]').val();
+          var v_nama = $('input:text[name=nama]').val();
+          var v_alamat = $('input:text[name=alamat]').val();
+          var v_jk = $('input[name=jk]:checked').val();
+          var v_no = $('input:text[name=no]').val();
+          var v_profesi = $('input:text[name=profesi]').val();
+          var v_email = $('input[name=email]').val();
+          var v_password = $('input[name=pwd]').val();
+
+          firebase.database().ref('mhs/'+v_id).update ({
+            id: v_id,
+            nama: v_nama,
+            alamat: v_alamat,
+            jk: v_jk,
+            no: v_no,
+            profesi: v_profesi,
+            email: v_email,
+            password: v_password
+          });
+        }
+        $('form-user')[0].reset();
+        $("#btn-save-user").prop('value', 'Simpan');
+      });
+
+     $( "#btn-edit-mhs" ).click(function() {
+      $.map($('#tbl_mhs').DataTable().rows('.selected').data(), function (item) {
+        $('input:text[name=txtNim]').val(item.nim);
+        $('input:text[name=txtNim]').attr('readonly', true);
+        $('input:text[name=txtNama]').val(item.nama);
+        var ttl = item.ttl.split(',');
+        $('input:text[name=txtTempatLahir]').val(ttl[0]);
+        $('input:text[name=txtTglLahir]').val(ttl[1]);
+        $('input:text[name=txtEmail]').val(item.email);
+        $("input[name=rbJk][value="+item.jk+"]").attr('checked', true);
+        $("#btn-save-mhs").prop('value', 'Ubah');
+      });
+          //tblMhs.orderByChild('nim').equalTo(nim);
+          $('#modal-form-mhs').modal('show');
+     });
+
+     $( "#btn-hapus-mhs" ).click(function() {
+        $.map($('#tbl_mhs').DataTable().rows('.selected').data(), function (item) {
+          var del = item.nim;
+          firebase.database().ref('mhs/'+del).remove();
+        });
+     });
+
+
+    }())
+
+    </script>

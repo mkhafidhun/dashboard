@@ -1,0 +1,344 @@
+{
+  "Armada" : {
+    "Big Bus HDD" : {
+      "HDD1" : {
+        "cc" : "13.000cc",
+        "deskripsi" : "47 Seats(2-2 Config), LEDTV 40in (With Automatic Folding Mechanism), DVDPlayer+6, Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20All%20New%20Legacy%20SR%202.PNG?alt=media&token=3db7f48e-3ed0-47c3-9590-da5cb8a4ae37",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20All%20New%20Legacy%20SR%202.PNG?alt=media&token=06abcfb4-fa4d-4df0-9625-a2a2638be47a",
+        "jenis" : "Big Bus HDD",
+        "tahun" : "2017",
+        "tipe" : "All New Legacy Sky"
+      },
+      "HDD2" : {
+        "cc" : "13.000cc",
+        "deskripsi" : "59 Seats(2-3 Config), LEDTV 40in (With AFM), DVDPlayer, 6 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20All%20New%20Legacy%20SR%202.PNG?alt=media&token=3db7f48e-3ed0-47c3-9590-da5cb8a4ae37",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20All%20New%20Legacy%20SR%202.PNG?alt=media&token=06abcfb4-fa4d-4df0-9625-a2a2638be47a",
+        "jenis" : "All New Legacy Sky",
+        "tahun" : "2017"
+      },
+      "HDD3" : {
+        "cc" : "14.000cc",
+        "deskripsi" : "47 Seats(2-2 Config), LEDTV 32in (With AFM), LEDTV 22in, DVD Player, 8 Speakers dan Subwofer",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20SR%202%20HD%20Prime.PNG?alt=media&token=682cf0f0-f729-4c61-9109-4335fb86f150",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20All%20New%20Legacy%20Sky%20SR%202.PNG?alt=media&token=500075d4-7b46-4355-b6ba-3766c9e2cfb4",
+        "jenis" : "Big Bus HDD",
+        "tahun" : "2017",
+        "tipe" : "SR2 HD Prime"
+      },
+      "HDD4" : {
+        "cc" : "14.000cc",
+        "deskripsi" : "59 Seats(2-3 Config), LEDTV 32in (With AFM), LEDTV 22in, DVD Player, 8 Speakers dan Subwofer",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20SR%202%20HD%20Prime.PNG?alt=media&token=682cf0f0-f729-4c61-9109-4335fb86f150",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20All%20New%20Legacy%20Sky%20SR%202.PNG?alt=media&token=500075d4-7b46-4355-b6ba-3766c9e2cfb4",
+        "jenis" : "Big Bus HDD",
+        "tahun" : "2017",
+        "tipe" : "SR2 HD Prime"
+      },
+      "HDD5" : {
+        "cc" : "11.000cc",
+        "deskripsi" : "48-50 seats, Upto 32in LEDTV, DVDPlayer, 8 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Infinity%20HD.PNG?alt=media&token=d4ab0aa1-d88c-435e-aff0-30a4398d3ad9",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Jet%20Bus%203%2B%20HDD.PNG?alt=media&token=15f0826c-0926-4743-a2fa-a06a6186a058",
+        "jenis" : "Big Bus HDD",
+        "tahun" : "2017",
+        "tipe" : "Jetbus 3+ HDD"
+      },
+      "HDD6" : {
+        "cc" : "15.368cc",
+        "deskripsi" : "43 Seats(2-2 Config), Upto 32in LEDTV, DVD-USBPlayer, 6 Speaker, Power, Amplifier, Subwoofer, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Infinity%20HD.PNG?alt=media&token=d4ab0aa1-d88c-435e-aff0-30a4398d3ad9",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Infinity%20HD.PNG?alt=media&token=29192b71-72d5-4df1-87ac-225c2e03034a",
+        "jenis" : "Big Bus HDD",
+        "tahun" : "2017",
+        "tipe" : "Infinity HDD"
+      },
+      "HDD7" : {
+        "cc" : "15.368cc",
+        "deskripsi" : "54 Seats(2-3 Config), Upto 32in LEDTV, DVD-USBPlayer, 6 Speaker, Power, Amplifier, Subwoofer, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Infinity%20HD.PNG?alt=media&token=d4ab0aa1-d88c-435e-aff0-30a4398d3ad9",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Infinity%20HD.PNG?alt=media&token=29192b71-72d5-4df1-87ac-225c2e03034a",
+        "jenis" : "Big Bus HDD",
+        "tahun" : "2017",
+        "tipe" : "Infinity HDD"
+      }
+    },
+    "Big Bus MD" : {
+      "MD1" : {
+        "cc" : "10.246cc",
+        "deskripsi" : "31-33 Seats, CD/DVDPlayer, 24in LCDTV (With FM), 4 Stereo Speaker",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Tourista.PNG?alt=media&token=4df3b56e-0bba-4c1f-b047-0be026951c0a",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Tourista.PNG?alt=media&token=8d19c271-4181-4224-9160-df50e7eb8ee1",
+        "jenis" : "Big Bus MD",
+        "tahun" : "2017",
+        "tipe" : "All New Tourista 2017"
+      },
+      "MD2" : {
+        "cc" : "11.967cc",
+        "deskripsi" : "29-39 seats, Upto 32in LEDTV, DVDPlayer, 8 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Jet%20Bus%203%2B%20MD.PNG?alt=media&token=c494b7a7-b6c4-4a62-b858-e1aa437dfe85",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Jet%20Bus%203%2B%20MD.PNG?alt=media&token=8b730f82-5a02-410e-ba2b-f421edcec488",
+        "jenis" : "Big Bus MD",
+        "tahun" : "2016",
+        "tipe" : "Jetbus 3+ MD"
+      },
+      "MD3" : {
+        "cc" : "11.967cc",
+        "deskripsi" : "31 Seats (2-1 Config), UpTo 24in LEDTV, DVD-USBPlayer, 4 Speaker, Power, Amplifier, Subwoofer, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Infinity%20MDD.PNG?alt=media&token=ac86649f-4ff8-45e2-b1e6-c34944e66a6c",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Infinity%20MDD.PNG?alt=media&token=ee49ca4d-6837-4764-be44-a79a9786cbe2",
+        "jenis" : "Big Bus MD",
+        "tahun" : "2016",
+        "tipe" : "Infinity MDD"
+      },
+      "MD4" : {
+        "cc" : "10.246cc",
+        "deskripsi" : "39 Seats (2-2 Config), UpTo 24in LEDTV, DVD-USBPlayer, 4 Speaker, Power, Amplifier, Subwoofer, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Infinity%20Midi.PNG?alt=media&token=037433ba-5121-4f65-a639-ea6d3a70919a",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Infinity%20Midi.PNG?alt=media&token=e9145441-9bd6-46a6-a9e0-f85dbf2ae9ae",
+        "jenis" : "Big Bus MD",
+        "tahun" : "2016",
+        "tipe" : "Infinity Midi"
+      }
+    },
+    "Big Bus SHD" : {
+      "SHD1" : {
+        "cc" : "10.000cc",
+        "deskripsi" : "47 Seats(2-2 Config), UpTo 22in LCDTV (With MFM), DVDPlayer, 6 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Discovery%202017.PNG?alt=media&token=f49d8e4d-3059-4e23-834b-99377aea7e0d",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Discovery%202017.PNG?alt=media&token=414c7536-ea67-4bd3-9a1f-0ccd333efc06",
+        "jenis" : "Big Bus SHD",
+        "tahun" : "2015",
+        "tipe" : "New Discovery"
+      },
+      "SHD2" : {
+        "cc" : "10.000cc",
+        "deskripsi" : "59 Seats(2-3 Config), UpTo 22in LCDTV (With MFM), DVDPlayer, 6 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Discovery%202017.PNG?alt=media&token=f49d8e4d-3059-4e23-834b-99377aea7e0d",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Discovery%202017.PNG?alt=media&token=414c7536-ea67-4bd3-9a1f-0ccd333efc06",
+        "jenis" : "Big Bus SHD",
+        "tahun" : "2015",
+        "tipe" : "New Discovery"
+      },
+      "SHD3" : {
+        "cc" : "7.684cc",
+        "deskripsi" : "43 Seats(2-2 Config), UpTo 32in LEDTV, DVD-USB Player, 6 Speaker, Power, Amplifier, Subwoofer, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Ultima%202.PNG?alt=media&token=64306779-4050-438f-9aa1-7da44b666947",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Ultima%202.PNG?alt=media&token=63babc02-527f-4973-aed5-b8a692e35eed",
+        "jenis" : "Big Bus SHD",
+        "tahun" : "2015",
+        "tipe" : "Ultima 2"
+      },
+      "SHD4" : {
+        "cc" : "7.684cc",
+        "deskripsi" : "54 Seats(2-3 Config), UpTo 32in LEDTV, DVD-USB Player, 6 Speaker, Power, Amplifier, Subwoofer, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Ultima%202.PNG?alt=media&token=64306779-4050-438f-9aa1-7da44b666947",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Ultima%202.PNG?alt=media&token=63babc02-527f-4973-aed5-b8a692e35eed",
+        "jenis" : "Big Bus SHD",
+        "tahun" : "2015",
+        "tipe" : "Ultima 2"
+      },
+      "SHD5" : {
+        "cc" : "7.684cc",
+        "deskripsi" : "43 Seats(2-2 Config), UpTo 32in LEDTV, DVD-USB Player, 8 Speaker, Power, Amplifier, Subwoofer, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20All%20New%20Infinity%20(Front%20Engine).PNG?alt=media&token=cca9aaa8-9a2e-4bd7-8361-f4a5653657b3",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20All%20New%20Infinity%20(Front%20Engine).PNG?alt=media&token=0fccea5e-6502-414e-b5d6-704e3d261fe1",
+        "jenis" : "Big Bus SHD",
+        "tahun" : "2015",
+        "tipe" : "All New Infinity (Front Engine)"
+      },
+      "SHD6" : {
+        "cc" : "7.684cc",
+        "deskripsi" : "54 Seats(2-3 Config), UpTo 32in LEDTV, DVD-USB Player, 8 Speaker, Power, Amplifier, Subwoofer, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20All%20New%20Infinity%20(Rear%20Engine).PNG?alt=media&token=15dea208-245c-450a-a38d-3643829aa868",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20All%20New%20Infinity%20(Rear%20Engine).PNG?alt=media&token=456fe344-a456-42bc-b3e7-77adc80cdba7",
+        "jenis" : "Big Bus SHD",
+        "tahun" : "2015",
+        "tipe" : "All New Infinity (Rear Engine)"
+      },
+      "SHD7" : {
+        "cc" : "6.374cc",
+        "deskripsi" : "48-59 Seats, UpTo 32in LEDTV, DVD Player, 8 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Jet%20Bus%203%2B%20SHD.PNG?alt=media&token=610cf992-36fc-47e7-b794-12773ae9548e",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Jet%20Bus%203%2B%20SHD.PNG?alt=media&token=feaf3365-8c0c-4fb8-8c6c-57b1e32429dc",
+        "jenis" : "Big Bus SHD",
+        "tahun" : "2015",
+        "tipe" : "Jetbus 3+ SHD"
+      }
+    },
+    "Minibus Big" : {
+      "Big1" : {
+        "cc" : "5.000cc",
+        "deskripsi" : "31 Seats (2-2 Config), UpTo 22in LCDTV, DVD Player, 4 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Gambar%201%20Nucleaus.PNG?alt=media&token=e8406c7c-6f62-4014-9e3d-0198183e02c5",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Gambar%202%20Necleaus.PNG?alt=media&token=5c33ba40-6211-41fa-81e1-d618feb53339",
+        "jenis" : "Minibus Big",
+        "tahun" : "2016",
+        "tipe" : "New Nucleus"
+      },
+      "Big2" : {
+        "cc" : "5.984cc",
+        "deskripsi" : "31 setas, Up to 20in LEDTV, DVDPlayer, 2 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Jet%20Bus%203%2B%20Big%20Benz.PNG?alt=media&token=3898910c-e2f6-4b76-ac95-cac301eb203c",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Jet%20Bus%203%2B%20Big%20Benz.PNG?alt=media&token=45639dbc-e295-4275-a61c-4a643dc8475c",
+        "jenis" : "Minibus Big",
+        "tahun" : "2016",
+        "tipe" : "Jetbus 3+ Big Benz"
+      },
+      "Big3" : {
+        "cc" : "5.403cc",
+        "deskripsi" : "31 Seats (2-1 Config), UpTo 24in LEDTV, DVD-USBPlayer, 4 Speaker, Power, Amplifier, Subwoofer, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Gambar%201%20Infinity.PNG?alt=media&token=5131dd93-4c74-4f40-9f6d-ef87810405c3",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Gambar%202%20Infinity.PNG?alt=media&token=580138c3-e24d-4c87-8b68-4d47ad1075ce",
+        "jenis" : "Minibus Big",
+        "tahun" : "2016",
+        "tipe" : "All New Infinity"
+      },
+      "Big4" : {
+        "cc" : "5.200cc",
+        "deskripsi" : "31 Seats (2-2 Config), UpTo 26in LEDTV, DVD-USBPlayer, 4 Speakers, Power, Amplifier, Mic",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Legend.PNG?alt=media&token=09b47792-8c35-49d1-bc42-51482c9e4dce",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Legend.PNG?alt=media&token=705230c9-834e-4703-8dba-9d5e8220ef1f",
+        "jenis" : "Minibus Big",
+        "tahun" : "2016",
+        "tipe" : "Legend"
+      }
+    },
+    "Minibus Big Jumbo" : {
+      "Big Jumbo1" : {
+        "cc" : "4.009cc",
+        "deskripsi" : "21-29 seats, UpTo 20in LED TV, DVD Player, 2 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Jet%20Bus%203%2B%20Big%20Jumbo.PNG?alt=media&token=c08c7ee5-2b89-41d5-9fe7-ceb0a48add63",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Jet%20Bus%203%2B%20Big%20Jumbo.PNG?alt=media&token=4257f582-4f7b-4587-8078-7c7bce788213",
+        "jenis" : "Minibus Big Jumbo",
+        "tahun" : "2017",
+        "tipe" : "Jetbus 3+ Big Jumbo"
+      }
+    },
+    "Minibus Jumbo" : {
+      "Jumbo1" : {
+        "cc" : "4.009cc",
+        "deskripsi" : "14-19 Seats, UpTo 20in LEDTV, DVD Player, 2 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Gambar%201%20Jet%20Bus%203%2B%20Jumbo.PNG?alt=media&token=15dccf83-8950-4885-b9ca-2a179eee72f9",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Gambar%202%20Jet%20Bus%203%2B%20Jumbo.PNG?alt=media&token=358e232a-5612-4037-b7da-24c7663875a8",
+        "jenis" : "Minibus Jumbo",
+        "tahun" : "2016",
+        "tipe" : "Jetbus 3+ Jumbo"
+      },
+      "Jumbo2" : {
+        "cc" : "5.542cc",
+        "deskripsi" : "19 Seats (3-4-3-3-4), UpTo 19in LCDTV, DVD-USBPlayer, 6 Speaker",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Protis%20Long.PNG?alt=media&token=f972c357-075a-4e89-948a-50c05b136da3",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Protis%20Long.PNG?alt=media&token=d82c0b33-7225-47e9-bf4f-bf6347d06159",
+        "jenis" : "Minibus Jumbo",
+        "tahun" : "2016",
+        "tipe" : "Isuzu Protis Long"
+      }
+    },
+    "Minibus MC" : {
+      "MC1" : {
+        "cc" : "5.542cc",
+        "deskripsi" : "15 Seats (3-3-3-4), UpTo 19in LCDTV, DVD-USBPlayer, 6 Speaker",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Protis%20Short.PNG?alt=media&token=28e49b84-bdba-4fe9-b28c-2d63255b3ab6",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Protis%20Short.PNG?alt=media&token=48e2beb5-7055-4571-b725-b90a3af61c23",
+        "jenis" : "Minibus MC",
+        "tahun" : "2016",
+        "tipe" : "Isuzu Protis Short"
+      },
+      "MC2" : {
+        "cc" : "4.570cc",
+        "deskripsi" : "17-20 seats, UpTo 20in LED TV, DVDPlayer, 2 Speakers",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Jet%20Bus%203%2B%20MD.PNG?alt=media&token=c494b7a7-b6c4-4a62-b858-e1aa437dfe85",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Eksterior%20Jet%20Bus%203%2B%20MD.PNG?alt=media&token=8b730f82-5a02-410e-ba2b-f421edcec488",
+        "jenis" : "Minibus MC",
+        "tahun" : "2016",
+        "tipe" : "Jetbus 3+ MD"
+      }
+    },
+    "Mobil" : {
+      "APV" : {
+        "cc" : "1.493cc",
+        "deskripsi" : "7 seat kursi",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/eksterior%20apv.jpg?alt=media&token=fa754f14-858b-442f-8079-4ba202c5e129",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/apv%20interior.jpg?alt=media&token=d1630057-6130-417e-9275-c58139b9efcb",
+        "jenis" : "Mobil",
+        "tahun" : "2017",
+        "tipe" : "Suzuki APV Luxury MT R15"
+      },
+      "Avanza" : {
+        "cc" : "1.496cc",
+        "deskripsi" : "7 seat kursi",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/avanza.jpg?alt=media&token=339ef7be-e06e-4038-886f-f1cac334903d",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/avanza_interior1.jpg?alt=media&token=61f6364c-6c5f-42e9-bc9c-8f99c457dbbb",
+        "jenis" : "Mobil",
+        "tahun" : "2019",
+        "tipe" : "Avanza Dual VVT-i"
+      },
+      "Ertiga" : {
+        "cc" : "1.462cc",
+        "deskripsi" : "7 seat kursi",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/ertiga.jpg?alt=media&token=e8f33380-c7af-4e39-808c-ef325f509c37",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/ertiga%20interior.jpg?alt=media&token=c9401a8f-ee1e-49ec-a2bf-774143665a4e",
+        "jenis" : "Mobil",
+        "tahun" : "2016",
+        "tipe" : "Suzuki Ertiga GA MT"
+      },
+      "Fortuner" : {
+        "cc" : "2.393cc",
+        "deskripsi" : "7 seat kursi",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/fortuner.jpg?alt=media&token=4d3752b6-00f6-4d3b-b870-ae627cd201f3",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/fortuner%20interior.jpg?alt=media&token=054c2dfe-0305-40c5-a267-7349b6049241",
+        "jenis" : "Mobil",
+        "tahun" : "2013",
+        "tipe" : "Toyota Fortuner 2.4 TRD AT"
+      },
+      "Grand Livina" : {
+        "cc" : "1.500cc",
+        "deskripsi" : "6 seat kursi",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Nissan%20Grand%20Livina%20X-Gear.jpg?alt=media&token=50056e4d-c655-4660-b967-e9289ee2e8d1",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Interior%20Nissan%20Grand%20Livina%20X-Gear.jpg?alt=media&token=4f13227e-fae3-4912-ba3b-6177b334515e",
+        "jenis" : "Mobil",
+        "tahun" : "2015",
+        "tipe" : "Grand Livina X-Gear"
+      },
+      "Innova" : {
+        "cc" : "1.998cc",
+        "deskripsi" : "7 seat kursi",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/kijang%20inova.jpg?alt=media&token=80587779-ddd9-4df9-ad1e-acfdd15fc954",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Kijang-Innova-interior.jpg?alt=media&token=80d7f22f-2251-4606-9c92-b8736fd1c47f",
+        "jenis" : "Mobil",
+        "tahun" : "2018",
+        "tipe" : "Innova V A/T"
+      },
+      "Jazz" : {
+        "cc" : "1.497cc",
+        "deskripsi" : " 5 seat kursi",
+        "gambar1" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/jazz.jpg?alt=media&token=1e5331fe-9537-4de8-b58d-f1be4cd5ee92",
+        "gambar2" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/jazz%20interior.jpg?alt=media&token=1673c60f-78bf-4571-8289-d301856243f7",
+        "jenis" : "Mobil",
+        "tahun" : "2019",
+        "tipe" : "Honda Jazz CVT"
+      }
+    }
+  },
+  "Pengguna" : {
+    "Hilmy" : {
+      "alamat" : "Nganjuk",
+      "email" : "hilmy@mail.com",
+      "gambar" : "https://firebasestorage.googleapis.com/v0/b/kewirausahaan-ae818.appspot.com/o/Profil%20Hilmy.jpg?alt=media&token=05948b7b-11c1-4eaa-a249-0043a07b73a8",
+      "gender" : "Laki-laki",
+      "nama" : "Hilmy",
+      "password" : "hilmy",
+      "profesi" : "Pelajar",
+      "telp" : "081234567890"
+    }
+  },
+  "Ulasan" : {
+    "Hilmy" : {
+      "email" : "hilmy@mail.com",
+      "nama" : "Hilmy",
+      "ulasan" : "Bagus"
+    }
+  }
+}
